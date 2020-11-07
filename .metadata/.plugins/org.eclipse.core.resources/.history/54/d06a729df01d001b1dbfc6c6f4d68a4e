@@ -1,0 +1,5 @@
+package com.cafe.serv;
+
+public interface MenuService {
+	public Menu getItem(int itemId);
+}

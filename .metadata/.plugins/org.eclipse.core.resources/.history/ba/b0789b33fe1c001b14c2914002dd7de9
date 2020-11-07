@@ -1,0 +1,89 @@
+package com.cafe.dto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class Cart {
+	@Id
+	@GeneratedValue
+	@Column(name = "order_id")
+	private int orderId;
+	@ManyToOne
+	@JoinColumn(name = "itemId")
+	@Column(name = "item_id")
+	private int itemId;
+	@Column(name = "item_name")
+	private String itemName;
+	@ManyToOne
+	@JoinColumn(name = "userId")
+	@Column(name = "user_id")
+	private int userId;
+	@Column(name = "quantity")
+	private int quantity;
+	
+	public Cart() {
+		super();
+	}
+
+	public Cart(int orderId, int itemId, String itemName, int userId, int quantity) {
+		super();
+		this.orderId = orderId;
+		this.itemId = itemId;
+		this.itemName = itemName;
+		this.userId = userId;
+		this.quantity = quantity;
+	}
+
+	public int getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+
+	public int getItemId() {
+		return itemId;
+	}
+
+	public void setItemId(int itemId) {
+		this.itemId = itemId;
+	}
+
+	public String getItemName() {
+		return itemName;
+	}
+
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public int getUserId() {
+		return userId;
+	}
+
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	@Override
+	public String toString() {
+		return "Cart [orderId=" + orderId + ", itemId=" + itemId + ", itemName=" + itemName + ", userId=" + userId
+				+ ", quantity=" + quantity + "]";
+	}
+	
+	
+}

@@ -1,0 +1,27 @@
+package com.cafe.dao;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate4.HibernateCallback;
+import org.springframework.orm.hibernate4.HibernateTemplate;
+
+public class MenuDaoImple implements MenuDao {
+
+	@Autowired
+	HibernateTemplate ht;
+	
+	@Override
+	public float getPrice(int itemId) {
+		ht.execute(new HibernateCallback<Float>() {
+
+			@Override
+			public Float doInHibernate(Session session) throws HibernateException {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		});
+		return 0;
+	}
+
+}

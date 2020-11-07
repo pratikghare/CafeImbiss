@@ -1,0 +1,40 @@
+/* ----- NavigationBar ----- */
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-item .active {
+    border-bottom: 4px solid #fff;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav {
+    font-weight: bold;
+    font-family: 'Chelsea Market';
+    font-size: 20px;
+}
+
+.navbar-nav ul {
+    text-align: center;
+}
+
+.navbar-nav li {
+    display: inline-block;
+
+}
+
+
+.navbar-nav a:hover {
+    border-bottom: 4px solid #fff;
+    color: #fff;
+    transition: all 150ms ease-in-out;
+}
+
+
+/* ----- EndOfNavigationBar ----- */

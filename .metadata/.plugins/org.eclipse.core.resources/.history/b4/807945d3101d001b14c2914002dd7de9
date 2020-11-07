@@ -1,0 +1,9 @@
+package com.cafe.dao;
+
+import com.cafe.dto.User;
+
+public interface UserDao {
+	public void addUser(User user);
+	public User findUser(User user);
+	public User findUser(int userId);
+}

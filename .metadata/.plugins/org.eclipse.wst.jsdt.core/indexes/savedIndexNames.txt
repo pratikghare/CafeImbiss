@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\prati\OneDrive\Desktop\Cafeteria\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+410903868.index
+3951758571.index
+3539339841.index
+4066944263.index
+3813933933.index
+2526462115.index

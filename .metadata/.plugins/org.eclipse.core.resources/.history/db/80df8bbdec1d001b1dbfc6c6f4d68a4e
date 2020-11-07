@@ -1,0 +1,17 @@
+package com.cafe.serv;
+
+import org.springframework.stereotype.Service;
+
+import com.cafe.dao.MenuDao;
+
+@Service
+public class MenuServiceImple implements MenuService {
+
+	MenuDao menuDao;
+	
+	@Override
+	public float getPrice(int itemId) {
+		return menuDao.getPrice(itemId);
+	}
+
+}

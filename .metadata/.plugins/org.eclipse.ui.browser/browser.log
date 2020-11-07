@@ -1,0 +1,68 @@
+
+Nov 02, 2020 15:38:38.30 NEW SESSION
+Nov 02, 2020 15:38:38.30 [1102/153838.301:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 02, 2020 17:01:09.87 NEW SESSION
+Nov 02, 2020 17:01:09.87 [1102/170109.866:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 02, 2020 19:44:22.88 [10504:13400:1102/194422.884:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.586 s for first_image_paint 0.571 s
+Nov 02, 2020 19:44:23.44 [10504:13400:1102/194423.447:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.586 s for first_image_paint 0.571 s
+
+Nov 02, 2020 22:00:28.21 NEW SESSION
+Nov 02, 2020 22:00:28.21 [1102/220028.202:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 03, 2020 12:48:09.01 NEW SESSION
+Nov 03, 2020 12:48:09.01 [1103/124809.008:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 04, 2020 24:14:20.36 NEW SESSION
+Nov 04, 2020 24:14:20.36 [1104/001420.364:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 04, 2020 12:50:38.03 NEW SESSION
+Nov 04, 2020 12:50:38.03 [1104/125038.027:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 04, 2020 15:43:10.09 [21856:17504:1104/154310.093:ERROR:fallback_task_provider.cc(118)] Every renderer should have at least one task provided by a primary task provider. If a fallback task is shown, it is a bug. Please file a new bug and tag it as a dependency of crbug.com/739782.
+Nov 04, 2020 15:44:48.93 [21856:17504:1104/154448.936:ERROR:fallback_task_provider.cc(118)] Every renderer should have at least one task provided by a primary task provider. If a fallback task is shown, it is a bug. Please file a new bug and tag it as a dependency of crbug.com/739782.
+Nov 04, 2020 15:44:51.98 [21856:17504:1104/154451.983:ERROR:fallback_task_provider.cc(118)] Every renderer should have at least one task provided by a primary task provider. If a fallback task is shown, it is a bug. Please file a new bug and tag it as a dependency of crbug.com/739782.
+Nov 04, 2020 15:53:01.55 [21856:20908:1104/155301.546:ERROR:mouse_cursor_monitor_win.cc(105)] Capture: Unable to get cursor info. Error = 5
+Nov 04, 2020 15:53:01.76 [21856:20908:1104/155301.760:ERROR:mouse_cursor_monitor_win.cc(105)] Capture: Unable to get cursor info. Error = 5
+Nov 04, 2020 15:53:01.77 [21856:20908:1104/155301.771:ERROR:dxgi_output_duplicator.cc(169)] Failed to capture frame, error 00000217B20C6680, code -2005270490
+Nov 04, 2020 15:53:02.00 [21856:20908:1104/155302.000:ERROR:screen_capturer_win_directx.cc(140)] DxgiDuplicatorController failed to capture desktop, error code Duplication failed
+Nov 04, 2020 15:53:02.24 [21856:20908:1104/155302.249:ERROR:mouse_cursor_monitor_win.cc(105)] Capture: Unable to get cursor info. Error = 5
+Nov 04, 2020 15:53:02.41 [21856:20908:1104/155302.409:ERROR:screen_capturer_win_directx.cc(140)] DxgiDuplicatorController failed to capture desktop, error code Initialization failed
+Nov 04, 2020 15:53:02.58 [21856:20908:1104/155302.581:ERROR:mouse_cursor_monitor_win.cc(105)] Capture: Unable to get cursor info. Error = 5
+Nov 04, 2020 15:53:02.80 [21856:20908:1104/155302.807:ERROR:dxgi_output_duplicator.cc(143)] Failed to release frame from IDXGIOutputDuplication, error00000217B47A4C90, code -2005270490
+Nov 04, 2020 15:53:02.87 [21856:20908:1104/155302.872:ERROR:screen_capturer_win_directx.cc(140)] DxgiDuplicatorController failed to capture desktop, error code Duplication failed
+Nov 04, 2020 15:53:36.71 [21856:17504:1104/155336.718:ERROR:fallback_task_provider.cc(118)] Every renderer should have at least one task provided by a primary task provider. If a fallback task is shown, it is a bug. Please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Nov 04, 2020 22:35:31.47 NEW SESSION
+Nov 04, 2020 22:35:31.47 [1104/223531.468:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 04, 2020 22:50:37.29 NEW SESSION
+Nov 04, 2020 22:50:37.29 [1104/225037.294:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 05, 2020 24:25:57.84 NEW SESSION
+Nov 05, 2020 24:25:57.84 [1105/002557.844:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 05, 2020 03:31:13.20 [16108:10096:1105/033113.199:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+Nov 05, 2020 12:35:40.57 NEW SESSION
+Nov 05, 2020 12:35:40.57 [1105/123540.552:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 05, 2020 13:34:20.27 [1105/133420.276:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+
+Nov 05, 2020 18:40:47.93 NEW SESSION
+Nov 05, 2020 18:40:47.93 [1105/184047.925:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 05, 2020 18:42:21.81 [20052:13192:1105/184221.799:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+Nov 05, 2020 20:34:27.84 NEW SESSION
+Nov 05, 2020 20:34:27.84 [1105/203427.844:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 05, 2020 20:56:12.56 NEW SESSION
+Nov 05, 2020 20:56:12.56 [1105/205612.564:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 05, 2020 21:08:11.79 [17880:12688:1105/210811.799:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 05, 2020 21:08:39.21 [17880:12688:1105/210839.209:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Nov 06, 2020 01:47:42.95 NEW SESSION
+Nov 06, 2020 01:47:42.95 [1106/014742.956:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 06, 2020 10:40:21.86 NEW SESSION
+Nov 06, 2020 10:40:21.86 [1106/104021.851:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 06, 2020 12:06:27.02 NEW SESSION
+Nov 06, 2020 12:06:27.02 [1106/120627.015:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

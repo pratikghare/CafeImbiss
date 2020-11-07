@@ -1,0 +1,8 @@
+package com.cafe.serv;
+
+import com.cafe.dto.Cart;
+
+public interface CartService {
+	public void addItem(Cart cart);
+	public List<Cart> getItems(int userId);
+}

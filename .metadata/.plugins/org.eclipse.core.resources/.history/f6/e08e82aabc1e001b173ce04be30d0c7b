@@ -1,0 +1,11 @@
+package com.cafe.serv;
+
+import java.util.List;
+
+import com.cafe.dto.Cart;
+
+public interface CartService {
+	public void addItem(Cart cart);
+	public List<Cart> getItems(int userId);
+	public boolean deleteItem(int orderId);
+}

@@ -1,0 +1,11 @@
+package com.cafe.dao;
+
+import java.util.List;
+
+import com.cafe.dto.Cart;
+
+public interface CartDao {
+	public List<Cart> selectAll(int userId);
+	public void insertItem(Cart cart);
+	public void deleteRecord(int userId, int itemId);
+}

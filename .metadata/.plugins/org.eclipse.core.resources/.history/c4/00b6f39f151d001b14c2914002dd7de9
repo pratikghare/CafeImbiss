@@ -1,0 +1,134 @@
+
+
+.bg-gray{
+    background-color: rgb(108, 117, 125);
+    border-bottom: 1px dotted #c0c0c0;
+}
+
+.bg-red{
+    background-color: rgb(220, 53, 69);
+}
+
+.bg-blue{
+    background-color: rgb(0, 123, 255);
+}
+
+.bg-darkblue{
+    background-color: rgb(52, 58, 64);
+}
+
+
+nav{
+    width: 100%;
+    position: fixed !important;
+    z-index: 1;
+    padding-bottom: 16px;
+}
+
+
+
+
+#check{
+    display: none;
+}
+
+@media screen and (min-width:1049px)
+{
+    .checkbtn{
+        display: none;
+    }
+
+    
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav ul li{
+        margin: 0 3%;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    nav a{
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Chelsea Market', 'Wellfleet', sans-serif;
+        text-decoration: none;
+        padding: 13px;
+    }
+
+    nav a:hover{
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 5px solid #fff;
+        transition: all 100ms ease;
+    }
+
+    .active{
+        border-bottom: 5px solid #fff;
+    }
+}
+
+@media (max-width:1048px){
+    .checkbtn{
+        font-size: 23px;
+        position: relative;
+        color: white;
+        cursor: pointer;
+        float: left;
+        margin-left: 50px;
+        line-height: 60px;
+        margin-top: 15px;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    
+    nav ul{
+        list-style: none;
+        display: grid;
+        transition: all 500ms ease-in-out;
+    }
+
+    #check:checked ~ ul li{
+        margin: 0 1%;
+        margin-top: 20px;
+        display: inline-block;
+        transition: all 500ms ease-in-out;
+    }
+
+    nav a{
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Chelsea Market', 'Wellfleet', sans-serif;
+        text-decoration: none;
+        padding: 10px;
+        margin-bottom: 5px;
+        margin-left: 10%;
+    }
+
+    nav a:hover{
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 3px solid #fff;
+        transition: all 100ms ease;
+    }
+
+    .active{
+        border-bottom: 3px solid #fff;
+    }
+}
+
+@media (max-width:350px)
+{
+    nav a{
+        
+        margin-left: 2%;
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Cafeteria/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cafe.dao{UserDao.java[UserDao" modifiers="513" timestamp="1604519117835"/>
+<typeInfo handle="=Cafeteria/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cafe.serv{UserService.java[UserService" modifiers="513" timestamp="1604519054519"/>
+<typeInfo handle="=Cafeteria/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cafe.dao{CartDao.java[CartDao" modifiers="513" timestamp="1604529651379"/>
+<typeInfo handle="=Cafeteria/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cafe.dao{MenuDao.java[MenuDao" modifiers="513" timestamp="1604420319057"/>
+<typeInfo handle="=Cafeteria/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cafe.serv{MenuService.java[MenuService" modifiers="513" timestamp="1604420483586"/>
+<typeInfo handle="=Cafeteria/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cafe.serv{CartService.java[CartService" modifiers="513" timestamp="1604529655244"/>
+</typeInfoHistroy>

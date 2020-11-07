@@ -1,0 +1,11 @@
+package com.cafe.dao;
+
+public class MenuDaoImple implements MenuDao {
+
+	@Override
+	public float getPrice(int itemId) {
+		
+		return 0;
+	}
+
+}

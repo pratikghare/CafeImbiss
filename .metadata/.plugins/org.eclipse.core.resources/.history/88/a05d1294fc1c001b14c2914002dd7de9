@@ -1,0 +1,15 @@
+package com.cafe.serv;
+
+import com.cafe.dao.UserDao;
+import com.cafe.dto.User;
+
+public class UserServiceImple implements UserService {
+
+	private UserDao userDao;
+	
+	@Override
+	public void addNewUser(User user) {
+		
+	}
+
+}

@@ -1,0 +1,39 @@
+package com.cafe.serv;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cafe.dao.UserDao;
+import com.cafe.dto.User;
+
+@Service
+public class UserServiceImple implements UserService {
+
+	@Autowired
+	private UserDao userDao;
+	
+	@Override
+	public void addNewUser(User user) {
+		userDao.addUser(user);
+	}
+
+	public boolean findUser(User user) {
+		return userDao.findUser(user);
+	}
+	
+	public User fetchAccountDetails(int userId) {
+		return userDao.findUser(userId);
+	}
+
+	@Override
+	public void updateUserDetails(User user) {
+		System.out.println(user);
+		userDao.updateUser(user);
+	}
+
+	@Override
+	public void deleteUserDetails(User user) {
+		userDao.deleteUser(user);
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.cafe.serv;
+
+public class MenuServiceImple implements MenuService {
+
+	@Override
+	public float getPrice(int itemId) {
+		
+		return 0;
+	}
+
+}

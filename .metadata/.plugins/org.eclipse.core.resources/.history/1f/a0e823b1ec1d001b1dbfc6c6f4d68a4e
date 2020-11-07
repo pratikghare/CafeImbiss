@@ -1,0 +1,14 @@
+package com.cafe.serv;
+
+import com.cafe.dao.MenuDao;
+
+public class MenuServiceImple implements MenuService {
+
+	MenuDao menuDao;
+	
+	@Override
+	public float getPrice(int itemId) {
+		return 0;
+	}
+
+}

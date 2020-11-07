@@ -1,0 +1,5 @@
+package com.cafe.dao;
+
+public interface MenuDao {
+	public float getPrice(itemId);
+}

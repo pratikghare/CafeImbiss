@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Pollos Hermanos</title>
+    <link rel="icon" href="./images/logo/title-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat:wght@400;800;900&family=Bubblegum+Sans&family=Mali&family=Flamenco&family=Aclonica&family=Carter+One&family=Luckiest+Guy&family=Lato&family=Montserrat+Subrayada&family=Sarabun&family=Viga&family=Wellfleet&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./references/main.css">
+    <link rel="stylesheet" href="./references/footer.css">
+    <link rel="stylesheet" href="./references/navigationBar.css">
+    <link rel="stylesheet" href="./references/animation.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+
+    <!--NavigationBar-->
+    <nav class="bg-darkblue" style="padding-bottom: 15px;">
+        <div class="navitems">
+            <input class="nav-checkbox" type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+            <ul>
+                <li>
+                    <a href="./menu.html">VIEW OUR MENU</a>
+                </li>
+                <li>
+                    <a href="./values.html">WHAT WE VALUE</a>
+                </li>
+                <li>
+                    <a href="./history.html">WHO WE ARE</a>
+                </li>
+                <li>
+                    <a href="./traning.html">EMPLOYEE & TRAINING</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!--EndofNavigationBar-->
+
+    <!--Header-->
+    <header class="header">
+        <div class="hero">
+
+            <a href="index.html">
+                <img id="main-logo" src="images/logo/lph-logos.png" alt="LosPollosHermanos" />
+            </a>
+            <br><br>
+            <div class="searchbar">
+                <input class="search_input" type="text" name="" placeholder="Search...">
+                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+            </div>
+
+        </div>
+    </header>
+    <!--EndofHeader-->
+
+    
+
+
+    <!--WhatWeDo-->
+    <div class="role">
+        <div>
+            <h1>
+                Why Los Pollos Hermanos'?
+            </h1>
+        </div><br><br>
+        <div>
+            <p>The need for a fresh hamburger and fries is real. Same goes for a job that lets you be you. Here at Los Pollos Hermanos’, we’ll work with your needs. And we’ll celebrate who you are. Bring your real self and let’s do this thing. And have some
+                fun, too. <b>WE GET YOU. WE GOT YOU!</b></p>
+        </div>
+    </div>
+
+    <div class="video-grid-container">
+        <div>
+
+        </div>
+        <div class="lph-video">
+            <video controls id="lph-video" poster="./images/background/video-thumbnail.png">
+                <source src="./videos/los-pollos-hermanos.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    <section class="wwd-container">
+        <div class="wwd-franchise">
+            <div class="wwd-content">
+                <h5>FRANCHISING</h5>
+                <h1>Become a Franchise</h1><br>
+                <p>Los Pollos Hermanos is a company that's constantly growing. From the first restaurant, we've continued to expand Fring Gustavos' vision to help other people become successful business owners by owning a Los Pollos Hermanos franchise. We
+                    look for franchisees who are committed to quality, not cutting corners.</p><br>
+                <button>Learn more about Franchising</button>
+            </div>
+        </div>
+        <div class="wwd-invesment">
+            <div class="wwd-content">
+                <h5>INVESTORS</h5>
+                <h1>Investing in Quality</h1><br>
+                <p>Check out the latest news, financial information and facts about Los Pollos Hermanos common stock. If you're an investor, financial analyst or find reading a 10-K thrilling, everything you need to know is right here.</p><br>
+                <br><br><button>SEE OUR PERFORMANCE</button>
+            </div>
+        </div>
+    </section>
+    <!--EndOfWhatWeDo-->
+
+    <!--ChickenSandwich-->
+    <section class="chicken-sandwich">
+        <div>
+            <h1>  </h1>
+        </div>
+        <div class="chicken-sandwich-content">
+            <h1>Our chicken delivers—<br>and gets delivered.</h1><br><br><br>
+            <p>If it’s spicy you need, we got the OG Spicy Chicken Sandwich. We also got those Made to Crave chicken sandwiches your taste buds are dreaming about. Oh, and you know we’re all about that nugg life.</p>
+        </div>
+    </section>
+    <!--EndOfChickenSandwich-->
+
+
+    <!--MenuSection-->
+    <section class="menu" id="menu">
+        <article class="menu-image"></article>
+        <article class="menu-text">
+            <div class="menu-text-center"><br><br><br><br><br>
+                <p>“It's the best ingredients. The spiciest spices. All prepared with loving care! And always delivered with a friendly smile. That's the Los Pollos Hermanos promise.”</p>
+                <p style="font-size: 15px; text-align: right;">Gustavo Fring -- Owner and Proprietor</p>
+
+
+                <br><a href="./menu.html">Explore</a><br>
+                <img id="gustavo-image" src="images/people/gus.png" alt="Gustavo Fring" />
+            </div>
+        </article>
+    </section>
+    <!--EndofMenuSection-->
+
+    <!--SpicyChicken-->
+    <section class="spicy-chicken">
+
+        <div class="spicy-chicken-content">
+            <form action="./menu.html">
+                <h1>Pick your chicken.<br> Get 2 for $5.</h1><br><br>
+                <p>Chicken fans, this one goes out to you. We’re serving up the hits with 2 for $5.</p>
+                <br>
+                <p>You can get all hot with a Spicy Chicken Sandwich and a 10 PC Spicy Nugg, or keep it cool with a Homestyle Chicken Sandwich and 10 PC Crispy Nugg. You can even double up on the nuggs if you want.</p>
+                <br>
+                <p>However you shuffle them, if chicken is your jam, this deal is gonna bring the house down.</p><br>
+                <button>START YOUR ORDER</button><br><br><br>
+            </form>
+        </div>
+    </section>
+    <!--EndOfSpicyChicken-->
+    <div style="clear: both;">
+    </div>
+    <!--NutritionSection-->
+    <section class="nutrition-section">
+        <div class="nutrition-content">
+            <h1>Nutrition Information</h1><br>
+            <p>Allergens. Calories. Ingredients. Let’s find something that checks all your boxes.</p>
+            <br><button>Learn More</button><br><br>
+        </div>
+        <div>
+            <img src="images/background/nutrition.jpg" alt="Nutrition" />
+        </div>
+    </section>
+
+    <section class="copyright-sprite">
+        <!--“Sprite” is a registered trademark of The Coca-Cola Company. Trademarks are the property of their respective owner. *First of all, no, a side is not similar to a sandwich. But-->
+        <p> If you don’t like something you got for breakfast, you can either show us your original receipt—like, your legit receipt. No tricky stuff. Or you can contact Los Pollos Hermanos Customer Care, give them your receipt and contact info, and they’ll
+            take care of you. Either way, you gotta do it by 10:30 AM the next day. Bottled drinks and full combos don’t count. No credit or refunds, and only one exchange per receipt. We ARE still a business, after all. Promotion available for a limited
+            time at participating locations only. Subject to cancellation at any time. Geez. Lawyers, amirite?</p>
+    </section>
+    <!--EndOfNutritionSection-->
+
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <ul>
+                    <li>
+                        <a href="#">Gift Card</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.com/privacy" target="_blank">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amc.com/terms" target="_blank">Terms and Conditions</a>
+                    </li>
+                </ul>
+                <span><a href="./login.html">Sign in  <i class="fas fa-sign-in-alt"></i></a></span>
+                <span><a href="./feedback.html">FEEDBACK  <i class="far fa-comment-dots"></i></a></span>
+            </div>
+
+            <div class="footer-right">
+                <a href="https://twitter.com/pratikghare888" target=_blank><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/pratikghare_/" target=_blank><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/pratikghare88" target=_blank><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h6>FOR ENTERTAINMENT PURPOSES.</h6>
+            <h6>&copy; 2020 AMC Network Entertainment LLC. All Rights Reserved.</h6>
+        </div>
+    </footer>
+    <!--EndOfFooter-->
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+package com.cafe.dto;
+
+public class Menu {
+	private int itemId;
+	
+}

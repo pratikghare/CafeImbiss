@@ -1,0 +1,10 @@
+package com.cafe.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Menu {
+	private int itemId;
+	private String itemName;
+	private float itemPrice;	
+}
